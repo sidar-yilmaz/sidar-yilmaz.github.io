@@ -1,0 +1,27 @@
+navigation = []
+[site]
+title = "Ali Sidar Yilmaz | Aerial Robotics"
+description = "Doctoral research in aerial robotics at the Technical University of Munich."
+favicon = "/favicon.svg"
+[author]
+name = "Ali Sidar Yilmaz"
+title = "Doctoral Researcher in Autonomous Aerial Systems"
+institution = "Technical University of Munich"
+avatar = "TODO_PROFILE_IMAGE"
+[social]
+personal_email = "alisidaryilmaz.62@gmail.com"
+linkedin = "https://www.linkedin.com/in/ali-sidar-yilmaz/"
+google_scholar = "https://scholar.google.com/citations?user=EPOhgssAAAAJ&hl=tr"
+email = "sidar.yilmaz@tum.de"
+github = "TODO_GITHUB_URL"
+[features]
+enable_likes = false
+enable_one_page_mode = true
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false

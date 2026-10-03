@@ -1,0 +1,30 @@
+image: node:22-bookworm
+
+stages:
+  - deploy
+
+variables:
+  NEXT_TELEMETRY_DISABLED: "1"
+
+cache:
+  key:
+    files:
+      - package-lock.json
+  paths:
+    - .npm/
+
+# Requires a Linux Docker/Kubernetes runner with access to npm.
+# Add your lab runner's tags here if it does not accept untagged jobs.
+pages:
+  stage: deploy
+  resource_group: website-pages
+  script:
+    - npm ci --cache .npm --prefer-offline
+    - node scripts/build-gitlab-pages.mjs
+    - node -e "require('node:fs').cpSync('out', 'public', { recursive:true })"
+  pages: true
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'

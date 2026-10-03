@@ -1,0 +1,2 @@
+export const asset = (path: string) => path.startsWith('/') ? `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${path}` : path;
+export const validLink = (path?: string) => !!path && !path.includes('TODO') && /^(https:\/\/|mailto:|\/)/.test(path);
