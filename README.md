@@ -91,10 +91,10 @@ Copy your real PDF to **public/cv/Ali_Sidar_Yilmaz_CV.pdf** and set `profile.cv`
 
 ## Deploy to GitHub Pages
 
-Target repository: https://github.com/sidar-yilmaz/academic-website.
-Expected Pages URL: https://sidar-yilmaz.github.io/academic-website/.
+Target repository: https://github.com/sidar-yilmaz/sidar-yilmaz.github.io.
+Expected Pages URL: https://sidar-yilmaz.github.io/.
 Set repository Settings → Pages → Source to **GitHub Actions**. The existing
-workflow handles the `/academic-website` path automatically. GitHub Free requires
+workflow uses an empty base path for this user site automatically. GitHub Free requires
 a public repository for Pages; Pro can also publish from a private repository.
 
 For LRZ GitLab Pages, use the included `.gitlab-ci.yml` and follow

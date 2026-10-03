@@ -1,7 +1,7 @@
 export const profile = {
 name:'Ali Sidar Yilmaz',role:'PhD Candidate at the Autonomous Aerial Systems Lab',institution:'Technical University of Munich',field:'Aerial Robotics',
 statement:'I am a PhD candidate at the Autonomous Aerial Systems Lab at the Technical University of Munich (TUM), supervised by Prof. Dr. Markus Ryll. I hold a BSc in Aerospace Engineering from Middle East Technical University (METU) and an MSc in Aerospace from TUM. My research focuses on developing a generalized control approach for aerial physical interaction.',
-portrait:'/media/profile/ali-sidar-yilmaz.png',heroImage:'/media/projects/xwebun-drilling.jpg',heroVideo:'TODO_HERO_VIDEO',canonical:'https://sidar-yilmaz.github.io/academic-website/',cv:'TODO_CV_FILE',cvPath:'/cv/Ali_Sidar_Yilmaz_CV.pdf',
+portrait:'/media/profile/ali-sidar-yilmaz.png',heroImage:'/media/projects/xwebun-drilling.jpg',heroVideo:'TODO_HERO_VIDEO',canonical:'https://sidar-yilmaz.github.io/',cv:'TODO_CV_FILE',cvPath:'/cv/Ali_Sidar_Yilmaz_CV.pdf',
 labUrl:'https://www.asg.ed.tum.de/en/aas/startseite/',supervisorUrl:'https://www.asg.ed.tum.de/en/aas/people/head-of-professorship/',
 socials:[{label:'Google Scholar',url:'https://scholar.google.com/citations?user=EPOhgssAAAAJ&hl=tr'},{label:'GitHub',url:'https://github.com/sidar-yilmaz'},{label:'LinkedIn',url:'https://www.linkedin.com/in/ali-sidar-yilmaz/'},{label:'Work email',url:'mailto:sidar.yilmaz@tum.de'},{label:'Personal email',url:'mailto:alisidaryilmaz.62@gmail.com'}]};
 export type Research = {title:string;slug:string;summary:string;technical:string;tags:string[];image:string;video:string;kind:number};
