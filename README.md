@@ -2,6 +2,18 @@
 
 A customized [PRISM](https://github.com/xyjoey/PRISM) academic website. Next.js, TypeScript, Tailwind CSS, Framer Motion, and PRISM's original BibTeX parser. The parser dependency uses its lean 0.0.23 release, Next.js is patched within version 15, and PostCSS uses a compatible patched override. PRISM's MIT license is retained in LICENSE.
 
+## Template attribution
+
+The original template is **PRISM**, published by [xyjoey and the PRISM
+contributors](https://github.com/xyjoey/PRISM). This repository contains a
+customized derivative for Ali Sidar Yilmaz. The unchanged original copyright and
+MIT terms are preserved in [LICENSE](LICENSE), with explicit attribution in
+[NOTICE.md](NOTICE.md), the website footer, and the `/credits/` page. The exported
+website includes the complete license at `/licenses/prism-MIT.txt`.
+
+Academic content, photographs, research figures, and university logos retain
+their respective ownership and permissions separately from the template license.
+
 ## Run locally
 
 Requires Node.js 22 or later with npm installed.
