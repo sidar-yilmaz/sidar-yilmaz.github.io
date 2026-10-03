@@ -29,3 +29,13 @@ Production build and static export pass. Research Interests has three centralize
 ## Proposal-based research and teaching update
 Research Interests rewritten from Expose_TUM_DocGS_Template.pdf, sections 2, 3, 5 and 6, retaining a conceptual explanation and framing proposed contributions as aims. Added design optimization, contact-subspace-aware control, and sensorless friction estimation as further research topics. Added Engineering Mechanics 1 exercise sessions with the user's stated teaching role. Production build and static export pass; all added content is present in exported HTML. No proposal PDF is publicly linked.
 
+## Confidential document audit — 2026-10-03
+
+Fetched the GitHub repository history and checked every historical blob for PDF
+file names, PDF binary signatures, and exact SHA-256 matches against the five
+supplied PDFs. No PDFs or exact supplied-document copies were found. The local
+static export also contains no PDF files. Extracted figures remain included with
+the owner's explicit approval. Source PDFs and extracted working text remain
+outside tracked source files. Research PDFs are ignored by Git; the explicit
+public/cv directory remains available for a future approved CV.
+

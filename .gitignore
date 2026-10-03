@@ -49,3 +49,6 @@ next-env.d.ts
 # Local phone-preview firewall setup is specific to this computer.
 /scripts/phone-preview-firewall.ps1
 /docs/PHONE_PREVIEW.md
+# Keep research PDFs out of source control; only an explicitly supplied CV belongs here.
+*.[pP][dD][fF]
+!/public/cv/*.[pP][dD][fF]
